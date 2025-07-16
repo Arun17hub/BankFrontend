@@ -19,7 +19,7 @@ import Support from "./pages/Support";
 import './App.css'
 import OtpPage from "./pages/OtpPage";
 import CardServices from "./pages/customer/CardServices.jsx";
-import LoanHistory from "./pages/customer/loanHistory.jsx";
+
 import LoanStatus from "./pages/customer/loanStatus.jsx";
 import VerifyAccounts from "./pages/employee/VerifyAccounts.jsx";
 import LoanApplications from "./pages/employee/LoanApplications.jsx";
@@ -30,6 +30,7 @@ import AddBalance from "./pages/employee/AddBalance.jsx";
 import AddEmployee from "./pages/admin/AddEmployee.jsx";
 import ManageLoans from "./pages/admin/ManageLoans.jsx";
 import AdminLoans from "./pages/admin/AdminLoans.jsx";
+import LoanHistory from "./pages/customer/LoanHistory.jsx";
 function App() {
   const location = useLocation();
   const { user } = useAuth();
